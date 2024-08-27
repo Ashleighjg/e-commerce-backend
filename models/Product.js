@@ -25,8 +25,8 @@ Product.init(
       type: DataTypes.DECIMAL(10, 2),
       allowNull: false,
       validate: {
-        validator: isDecimal,
-        message: '{VALUE} is not a valid decimal value',
+        isDecimal: true,
+        message: '{VALUE} is not a valid decimal value'
       },
     },
     stock: {
@@ -34,8 +34,8 @@ Product.init(
       allowNull: false,
       defaultValue: 10,
       validate: {
-        validator: isNumeric,
-        message: '{VALUE} is not a valid numeric value',
+        isNumeric: true,
+        message: '{VALUE} is not a valid numeric value'
       },
     },
     categoty_id: {
