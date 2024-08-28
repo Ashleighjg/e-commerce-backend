@@ -2,11 +2,13 @@
 
 ## Description
 
-Welcome to the E-Commerce Backend project! This repository contains the server-side code for a robust and scalable e-commerce application. The backend is designed to handle various functionalities.
+Welcome to the E-Commerce Backend project! This repository contains the server-side code for a scalable e-commerce application. The backend is designed to handle various functionalities.Built with Express.js and Sequelize, this backend provides a robust framework for managing products, tags, and categories, with PostgreSQL as the database.
 
-([Link to video walkthrough](https://drive.google.com/file/d/1QdZqISc7HNQ5w4_eYaOGXd2xfDPzHYKl/view?usp=sharing))
+([Link to video walkthrough](https://drive.google.com/file/d/1chuTSfNs6uhfXkUkiy6_qdFcUuMCpBBo/view))
 
-([Code source location](https://github.com/Ashleighjg/cl-employee-tracker))
+([Code source location](https://github.com/Ashleighjg/e-commerce-backend))
+
+
 
 ## Table of Contents
 
@@ -24,17 +26,43 @@ N/A
 ## Usage
 
 
-This employee tracker can be used by developers and programmers to develop an app for tracking employees.
+Tech Stack
+Node.js: JavaScript runtime for building server-side applications.
+Express.js: Web framework for creating RESTful APIs.
+Sequelize: Promise-based ORM for Node.js to interact with PostgreSQL.
+PostgreSQL: Powerful, open-source relational database.
 
-![Shows initial prompt](./Pictures/initialprompt.JPG)
+![Shows initial products in Insomnia](./Pictures/products.JPG)
 
-![Shows show departments table](./Pictures/departments.JPG)
+![Shows show tags in Insomnia](./Pictures/tags.JPG)
 
-![Shows show roles table](./Pictures/roles.JPG)
+![Shows show categories in Insomnia](./Pictures/categories.JPG)
 
-![Shows show employee table](./Pictures/employees.JPG)
 
-Once the user has run "node index" in the terminal and input responses to the prompted questions, there will be a queries ran to update the employee database.
+API Endpoints
+
+Products
+
+GET /api/products - Retrieve a list of products.
+GET /api/products/:id - Retrieve a single product by ID.
+POST /api/products - Create a new product.
+PUT /api/products/:id - Update an existing product by ID.
+DELETE /api/products/:id - Delete a product by ID.
+Tags
+
+GET /api/tags - Retrieve a list of tags.
+GET /api/tags/:id - Retrieve a single tag by ID.
+POST /api/tags - Create a new tag.
+PUT /api/tags/:id - Update an existing tag by ID.
+DELETE /api/tags/:id - Delete a tag by ID.
+Categories
+
+GET /api/categories - Retrieve a list of categories.
+GET /api/categories/:id - Retrieve a single category by ID.
+POST /api/categories - Create a new category.
+PUT /api/categories/:id - Update an existing category by ID.
+DELETE /api/categories/:id - Delete a category by ID.
+
 
 
 ## License
