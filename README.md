@@ -1,4 +1,4 @@
-# travel-planner
+# E-Commerce Backend Project
 
 ## Description
 
